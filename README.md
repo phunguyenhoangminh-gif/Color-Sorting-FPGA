@@ -4,10 +4,7 @@
 This project implements an automated **Color Sorting System** using the **Xilinx Arty Z7-20** FPGA. The system identifies objects based on color (Red/Green) using a **TCS3200** sensor and sorts them using two **SG90 Servo Motors**.
 
 This version features a single IR sensor for object detection and configurable **Start Delays** for each servo, allowing for precise timing control based on the conveyor belt speed.
-## Demo Video
-Click the image below to watch the demonstration on YouTube:
 
-[![Watch the video](https://img.youtube.com/vi/XzLxzrosXNM/maxresdefault.jpg)](https://youtu.be/XzLxzrosXNM)
 ### Key Features:
 * **Controller:** Digilent Arty Z7-20 (Zynq-7000 SoC).
 * **Sensor Fusion:** Combines TCS3200 Color Sensor (Long Range Mode) and IR Obstacle Sensor.
@@ -15,7 +12,10 @@ Click the image below to watch the demonstration on YouTube:
     * **Servo Angle:** Calibrated to **60 degrees**.
     * **Timing Control:** Individual `START_DELAY` and `HOLD_TIME` for each servo channel.
 * **Manual Override:** Dedicated buttons to test each servo manually.
+## Demo Video
+Click the image below to watch the demonstration on YouTube:
 
+[![Watch the video](https://img.youtube.com/vi/XzLxzrosXNM/maxresdefault.jpg)](https://youtu.be/XzLxzrosXNM)
 ## 2. Hardware Architecture
 
 ### Pin Mapping (Arty Z7-20 Pmod)
